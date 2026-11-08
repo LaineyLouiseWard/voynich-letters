@@ -1,0 +1,1 @@
+reference against takahashi on the test lines: 5.06% of 20834 characters (95% range 4.24% to 7.55%, 6 sheets resampled 1000 times); 431 of 432 test lines compared; left out: {'takahashi: doubtful reading': 1}; insertions 325 (1.56% of the reference's characters)

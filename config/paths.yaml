@@ -1,0 +1,14 @@
+# Paths relative to the repo root.
+word_boxes: ../voynich-glyph-embeddings/data/word_boxes/aligned.csv
+images: ../voynich-glyph-embeddings/data/raw/digipal_project/images
+zl: ../voynich-glyph-embeddings/data/raw/zandbergen/ZL3b-n.txt
+takahashi: data/raw/IT2a-n.txt    # https://www.voynich.nu/data/IT2a-n.txt (make takahashi; md5 in the Makefile)
+page_labels: ../voynich-glyph-embeddings/config/zl_page_labels.csv
+lines: data/lines
+seg: data/seg
+dataset: data/dataset/voynich
+scribe_dataset: data/dataset/voynich_scribes    # the same lines and splits, with "script" = Davis scribe (step 2)
+model_code: external/morphology4metrology
+checkpoint: data/models/m4m_checkpoint.pth
+runs: data/runs
+reading: results

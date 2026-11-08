@@ -1,0 +1,41 @@
+# The letter model: morphology4metrology (Vlachou-Efstathiou, Baena, Stutzmann and Aubry, ICDAR 2026), a DTLR
+# character detector with learned letter shapes. scripts/setup_model.sh fetches the code at this commit, applies
+# scripts/morphology4metrology.patch and downloads the pretrained detector; scripts/letter_model.py runs it with these settings.
+code: https://github.com/raphael-baena/morphology4metrology
+commit: b0e0cf3b8f85859fa87dd84af6fc4644b54db83c
+# predict.py from this earlier commit: at `commit`, predict.py holds a copy of the dataset code instead of the
+# prediction script that the authors' README and export_paleography_input.py call
+predict_commit: 307008474ca5d0de9147ffaaf5dfc04eb9b2a456
+checkpoint:   # the authors' pretrained detector with accents (Hugging Face RaphaelBfr/morphology4metrology, Apache-2.0)
+  url: https://huggingface.co/RaphaelBfr/morphology4metrology/resolve/main/checkpoint.pth
+  sha256: 991138257f0349d293d1f287c620542f5c8f5782b11e3c6251eec7b3743b8abc
+# Training: the authors' README commands for steps 0 and 1. Two settings differ, marked "ours".
+common:
+  dataset_file: dataset
+  data_folder: voynich
+  split: train                  # ours: only the training sheets (their default trains on every line, held-back too)
+  space_index: 0                # the word space is the first symbol of the sorted letter list
+  model_config_path: config/Latin_accent.py
+  num_fine_classes: 2
+  sprite_size: 32
+  line_resize_h_ref: 90
+  line_resize_max_width: 3000   # ours: every line keeps its width (longest 2,638 px at height 90); theirs, 1400,
+                                # squeezes wider lines sideways
+  loss: L1
+step0:                          # frozen boxes; learns the letter shapes and the classifier for our letters
+  max_e: 20
+  batch_size: 16
+  init: true
+step1:                          # everything trained, boxes included
+  max_e: 100
+  batch_size: 8
+  learning_rate: 1.0e-4
+  weight_loss_reconstruction: 3
+step2:                          # per scribe: step 1's letter pictures re-tuned on one scribe's training lines, as the
+                                # authors' README step 2 (per script): pictures and letter heads trained, boxes not
+  max_e: 140
+  batch_size: 8
+  learning_rate: 1.0e-2
+  learning_rate_background: 1.0e-5
+  mask_sprite: true
+scribes: ["1", "2", "3"]        # Davis 2020 scribes fine-tuned, in the scribe dataset's "script" field

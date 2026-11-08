@@ -1,0 +1,1 @@
+reference against zl on the test lines: 5.11% of 20916 characters (95% range 4.13% to 7.54%, 6 sheets resampled 1000 times); 432 of 432 test lines compared; left out: none; insertions 323 (1.54% of the reference's characters)

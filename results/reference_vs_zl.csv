@@ -1,0 +1,433 @@
+line,ref_chars,edits,ref,hyp
+107r_01.png,66,3,pCdlar Seolor ykeeol qokCy otor okeesodar tarair oteey otaiin ytar,pCdlar Seolor ykeeol qokCy otor okeesodar tarair otoey otaiin ytar o
+107r_02.png,70,2,dCey qoteos aiin Sedy oteed qor aiin CeoKy olkeey qotain Cey qeeey lor,dCey qoteos ain Sedy oteed qor aiin CeoKy olkeey qotain Cey qeey lor
+107r_03.png,51,1,olCeey Ceos qokeeey yCeedy qotain ykain okeey raiin,olCeey Seos qokeeey yCeedy qotain ykain okeey raiin
+107r_04.png,70,3,teeody Cedain qoteey qokar deeoltedy otar ain Cady otokCo qoked okCedy,rteeody Cedain qoteey qokar deeo ltedy otar ain Cady otoko qoked okCedy
+107r_05.png,63,1,olkCedy tedy oteeey okCedy qokeed qokear Cedy CokCedy qokain ar,olkCedy tedy oteeey okCedy qokeed qokear Cedy okCedy qokain ar
+107r_07.png,39,1,ytaiin CeotCey okaiin CKy okeedy otCeey,ytaiin CeotCey okaiin CKy okeedy otCeel
+107r_08.png,66,4,torSor Seeey oteeol qokeey qokedy lkaiin qokaiin qokar al okiroley,tarSor Seeey oteeol qokey qokedy lkaiin qokaiin qokar al okirol
+107r_09.png,61,2,okaiin Seey tCeol kain okeey Cedy okeedy CdykCedy Cey kain an,okaiin Seey tCeol kain okeey Cedy okeedy Cdykedy Cey kaio an
+107r_10.png,65,3,yteedy qokeedy okeol lCedy qokal lor Seal Ceedaiin Cey sair alo m,yteedy qokeedy okeol lCCedy qokal or Seal Ceedaiin Cey sair alom
+107r_11.png,67,3,Ceeo Ceeol qokaiin ytain y keeol l oraiin okaiin okar okaiin otaram,Ceeo Ceol qokaiin ytain y  keeol l oraiin okaiin ekar okaiin otaram
+107r_12.png,24,6,y Col Col loraiir aiinal,Cl Cal lor aiir aiiinal
+107r_13.png,63,1,polCls aiin Seky qokaiin opCal Sedy pSedaiin otodal Sedy otaral,polCls aiin Seky qokaiin opCal Sedy pSedaiin otodal Sedy otar al
+107r_14.png,60,4,Tedy lSedy CeolCear or alam Ctaiin otarain Cey qokaiin otain,edy lSedy Ceol Cear or alam Cetaiin otar ain Cey qokaiin otain
+107r_16.png,62,3,tolSoror olkeedy qotaiin otalar opCeol qeeoy Sey kair otaiinam,tolCosor olkeedy qotaiin otalar opCeol qeoy Sey kair otaiinam
+107r_17.png,20,2,sair Cey losaiin Cey,sairCey losaiii Cey
+107r_19.png,64,1,oaiin ol rar Seey ylar aiin Colal dy Ceeody okeeey Ceodaiin aldy,oaiin ol rar Seey ylar aiin Colal dy CCeeody okeeey Ceodaiin aldy
+107r_20.png,12,9,tCeol kCeedy,ttCeeeolll   Ceeeddy
+107r_21.png,67,2,taror olal okain okaiin qotal Saiin qokeol lkaiin okeeo lkaiin aiin,taror olal okain okaiin qotl Saiin qokeol lkaiin okeeo lkaiin ain
+107r_23.png,19,2,Codaiin Sar Codaiin,Codaiiin Sar Co daiin
+107r_24.png,68,4,pal alCky okil Ceol kair lkain qokeeo kair dar aiinpCod lkaiiin olfy,pal aSlCky okilCeol kair lkain qokeeo kair dar aiinpCod l kaiiin olpy
+107r_25.png,59,0,yCeain Cal kal Cedy qokaiin Cody qokCdy qokal Car Cdalal om,yCeain Cal kal Cedy qokaiin Cody qokCdy qokal Car Cdalal om
+107r_26.png,46,1,ol Ceor Sey Ceey olCeol kaiin otair okal Ceody,olCeor Sey Ceey olCeol kaiin otair okal Ceody
+107r_28.png,60,5,kar aiin Cl Color Seees aiin Ceey otCy lkaiin ykaiin ykalkal,tan aiin Cl Color Seees aiin Ceey oty lkaiin ykaiiin ykal kal
+107r_29.png,18,2,olkeeolkeeo ar Sol,olkeeo llkeeo ar Sol
+107r_31.png,62,2,daiin Seol Cdy okaiin Seykal Sy kl al kal Cdy r aiin Cain yols,daiin Seol Cdy okaiin Sey kal Sy kl al kal Cdy r aiin Cain y ols
+107r_32.png,54,4,salxar Sy qokaiin okal qoKedy okr aiin otar qoTy rolky,salar Sy qokaiin okal qoKedy ok aiin otar qoTy C rolky
+107r_33.png,57,4,yaiin Cekain Ceo kaiin Cey qol kaiiin Cky lCeel lkar okal,yaiin Cekain Ceo kaiiin Cey qol kaiiin Cky Ceel kar nokal
+107r_34.png,62,4,pairar al oro lkeey qotal Ceotain dar okaiin otaiin otar opaim,paiar al arokeey qotal Ceotain dar okaiin otaiin otar opaim
+107r_35.png,61,1,daiin Sl lkeeol lCedy qokor lkaiin Cedy qotaiin al ol kaldaim,daiin Sl lkeeol lCedy qokor l kaiin Cedy qotaiin al ol kaldaim
+107r_36.png,61,1,dar alCor kCeo rkeey Caiin al dal qokCey qokl Cey lkaiin lkar,dar alCor kCeo rkeey Caiin al dal qokCey okl Cey lkaiin lkar
+107r_37.png,25,4,yCklkaiin CKy Co l olkain,y Ckl kaiin CKy Cololkain
+107r_38.png,60,0,poaral orar ofCey qoteedy qotaiin opCedy qokCey otlCdain aly,poaral orar ofCey qoteedy qotaiin opCedy qokCey otlCdain aly
+107r_40.png,58,1,lolkaiin Cey qokaiin Cal aiin okaiin olkar otair okal okal,lolkaiin Cey qokaiin Cal aiin okaiin olkar otair okal akal
+107r_41.png,31,2,qokaiin ar oKey qokal otal otam,qkain ar oKey qokal otal otam
+107r_42.png,63,6,pColky sokeey aiin oteey ykCey paiCy okeey tain ar arodl kairam,sfColky okeey aiin oteey ykCey paiiy okeeytain ar arodl kaira
+107r_44.png,31,2,yCeodain okeey qokeeody qokaiin,y Cedain okeey qokeeody qokaiin
+107r_45.png,63,3,podky Cedy qoKy qokeedy qokokil y Cees opal kaiin otaiin otaram,todky Cedy qoKy qokeedy qokokil y CCees opal kaiin otaiin otar am
+107r_46.png,67,2,sar Ceey qodaiin qokaiin ol Ceor aiin otal taiin qokaiin otal alkal,sr Cey qodaiin qokaiin ol Ceor aiin otal taiin qokaiin otal alkal
+107r_48.png,63,3,fairal Ckal lky otain ar kalkal qotain oty lky otaiin ytaiin om,pairal Ckal lky otiin ar kalkal qotain oty ky otaiin ytaiin om
+107r_50.png,62,3,Cain al lkeey Col taidy qotaiin y taiin lkl lfCal pCdy pal tar,Cain al lkeey Col taidy qotain ytaiin lkl lfCal pCdypal tar
+107r_51.png,49,0,sar ain Col ol Ceey otal otal ol otCy qoky otaily,sar ain Col ol Ceey otal otal ol otCy qoky otaily
+107v_03.png,70,1,sain ain aiiin qokaiin Sol kal qokar al oCedy lkaiin otal olkiir alody,sain ain aiiin qokaiin Sol kal qokar al oCedy lkaiin otal olkir alody
+107v_04.png,42,0,dain Ceky okeCy qokain SoTy otaiin alkaiin,dain Ceky okeCy qokain SoTy otaiin alkaiin
+107v_05.png,67,4,tol SeoKedy qotol Cdor oteCdy teol tedaiin opCedy qopCdy ytar aiiil,tolSeoKedy qotal Cdor oteCdy teol tedaiin opCedy qopCdy ytar aii
+107v_06.png,71,2,paiin okaiin qokaiy olkeedy qokeey qotaiin oky lkal otaiin aiin qokaldy,paiin okaiin qokaiy olkeedy qokeey qotaiinoky lkal okaiin aiin qokaldy
+107v_07.png,23,0,taiin CeoKy Cain qokain,taiin CeoKy Cain qokain
+107v_08.png,65,0,polCeolkain qokair okeol qokol qokaiin opCeol qotedy ltedy otedam,polCeolkain qokair okeol qokol qokaiin opCeol qotedy ltedy otedam
+107v_09.png,63,3,saiin Sey kedy qokain qokedy qokaiin y lkaiin qoky lkal tar aty,saiinn Sey kedy qokain qokedy qokain y lkaiin qoky lkal tar  aty
+107v_10.png,43,0,Sodaiin Sey qokair qokaiin Cokedy tain Sedy,Sodaiin Sey qokair qokaiin Cokedy tain Sedy
+107v_11.png,61,1,tSedy okal Sedy qokCey Cky qokeey qotaiin otol qoteedy qopCFy,tSedy okal Sedy qokCey Cky qokeey qotaiin otol qoteedy qopCPy
+107v_12.png,63,0,qokeey lCeol Col kaiin olkal Sedy qokaly odar Coty qokaiin otam,qokeey lCeol Col kaiin olkal Sedy qokaly odar Coty qokaiin otam
+107v_14.png,61,3,daiin Saiin okaiin qokar qokal qokal Ceody qokain okCdy dlkal,dain Saiin okaiiin qokar qokal qokal Ceody qokain okCCdy dlkal
+107v_15.png,54,0,solain qokal okeey lkaiin okain Ckal otain CTy tarairy,solain qokal okeey lkaiin okain Ckal otain CTy tarairy
+107v_16.png,63,3,parair okal opCol okal opaiin otedy qokeody tolkol lkar aiiraly,arair okal opCol okal opaiin otedy qokeody toolkol lkar aiir aly
+107v_17.png,60,2,saiin or ykeear CKy okaiin okal qoklaiin Ceol qokar Cey lkam,saiiin or ykeear CKy okaiin okal qoklaiin Ceol qokar  Cey lkam
+107v_18.png,60,2,qokain qokCey qekCdy okaiin lkl Col raiin otaiin alkaiin dal,qokain qokCey qekCdy okaiin okl Col raiin  otaiin alkaiin dal
+107v_19.png,36,0,soral olaiin Cor okaiin Ckain okaiin,soral olaiin Cor okaiin Ckain okaiin
+107v_20.png,61,2,palar or air kalkal okaiin Cpal Ceody qopCedy pColkal opalkam,alar orair kalkal okaiin Cpal Ceody qopCedy pColkal opalkam
+107v_21.png,61,3,taiin ol kaiin Col kCedy qokol ain air kaiin okal otar otalal,tain ol kaiin Col kCedy okol ain air kaiin okal otar otal al
+107v_22.png,30,1,dar alol olaiin olkal Col Cdar,dar alol olaiim olkal Col Cdar
+107v_23.png,58,1,palCar ar akaiiky Car raikCy opCain opalkar otal otar alky,palCarar akaiiky Car raikCy opCain opalkar otal otar alky
+107v_24.png,29,1,dain olaiin Col olkain lkaiin,dain olaii Col olkain lkaiin
+107v_26.png,63,3,oraiin Seor qokain Ceody qokain otal okaiin olkeeo r ar al oldy,oraiin Seor qokain Ceody qokain otal okaiin olkeeoraral oldy
+107v_27.png,61,3,dal okain okCey qokSy okol lkSedy taraiin So qokor Ceey qokam,dal okain okCey qokSy okol lkSedy tar aiinSo qokar Ceey qokam
+107v_28.png,26,2,y Ceor Ceol lCeedy raraiin,yCeor Ceool lCeedy raraiin
+107v_30.png,64,3,okain ol okaiin lkeody otaiin Col lkaiin lkeeey qokaiin Cey qoky,okain ol okaiiy lkeody otaiin Col lkaiin lkeCy qokaiin Cey qoky
+107v_31.png,44,1,sokod Cey lkaiin Cedy qe okeody qokeedy rary,sokod Cey lkaiin Cedy q okeody qokeedy rary
+107v_32.png,57,2,tay oaiin okeeody okaiin otaiin otCey qokaiin otedy qokam,tayo oaiin okeeody okaiin otaiin otCey qokaiin okedy qokam
+107v_33.png,59,5,orain Col qodaiin odain aiin okain Ckaly raiin y kaiin aldy,y ain Col qodaiin odain aiin okain Ckaly raiioy kaiinaldy
+107v_34.png,31,3,dyair Cey lkCy lCedy raiin Seey,d yair Cey lkeey lCedy raiin Seey
+107v_35.png,58,4,polCedy olkeey lkey CTy lkar Sedy qokaiin Cedy qokeedy lol,olCedy olkeey lkey CTy lkar Sedy qqokaiiin Cedy qokedy lol
+107v_36.png,55,3,tol Cey lCeor Seol qokaiin olkeedy okar ar olkain odain,to Cey lCeor Seol qokaiin olkady okar ar olkain odain
+107v_37.png,63,5,poraiin o kal Cedy qolkeey lpCeedy qokol rol keedy okaiin otary,popaiin okal Cedy qolkeey lKCeedy qokol  ral keedy okaiin otary
+107v_38.png,56,1,dain okCey qokCey qokaiin olkeey qokol oteey oteey lkain,dain okCey qokCey qokaiin olkeey qokol oteey oteey lkaain
+107v_39.png,58,5,okain Ceor olkaiin oain Ceary raiin okoiin odaiin okaiin y,okain Ceor o lkaiin oaiin Ceary raiin okain odaiin okain y
+107v_40.png,35,2,Cokeey qokey qokaiii lor aiin aiily,Cokee qokee qokaiii lor aiin aiily
+107v_41.png,67,4,pokar ar keey okeeo l Ceey qokCey oteey lkeeo l lkeedy qokeey lkain,oka arkeey okeeo lCeey qokCey oteey lkeeo l lkeedy qokeey lkain
+107v_42.png,21,3,or ain oloeeey qokain,or iinn oloeeeey qokain
+107v_46.png,60,3,soain aiin Cey qolaiin al Cedy kedy qoteey oteey qokeeylkain,eoain aiin Cey qolaiin al Cedy kedy qoteey oteey qokey lkain
+107v_49.png,40,3,yCeosaiin oekey Cey qokeey y Ceey dy qoy,yCeos aiin oekey Cey qokCey yCeey dy qoy
+108r_02.png,68,0,qokeedy Cokedy CoKed qokeor Sedy otal otaiin otedy qokeCy ofCdy qody,qokeedy Cokedy CoKed qokeor Sedy otal otaiin otedy qokeCy ofCdy qody
+108r_04.png,36,1,yCedaiin Sky Cdy oteeody Cedor Seeky,yCedaiin Sky Cdy oteeody Cedoor Seeky
+108r_06.png,69,4,ol Ceol qo qokeey qokeey qokeedy Seoky otedy qotey qokCey Cdar aiin y,ol Ceol qo qokeey qokeey qokeedyy Seoky otedy otey qokCey Cdar aiiiny
+108r_08.png,66,2,poCedy Sy Sokeedar al kedal CokCy qokar C okeey qaiin okeedy qetam,poCedy Sy Sokeedar al kedal CokCy qokarC okeey qaiin okeedy qtam
+108r_09.png,64,5,Tey Cedain Cedy okedy lkedy raraiin qokar otal kedy ar air oKedy,e Cedain Cedy okedy lkedy laraiin qotar otal kedy al air oKedy
+108r_10.png,67,5,taiin Skeedy qoteey oteey ykeol ykeedy Cekar qokeeodaiin okeyty ody,kaiin Skeedy qoteey oteey yteol ykeedy Cekar qokeeo daiin okey t ody
+108r_12.png,63,4,tSey okCey dain aloiin oCeey qokaiin Clam okaiin okal kain alam,tSey okCey dain alainoCeey qokaiin Clam okaiinokal kain alam
+108r_13.png,25,5,ykeey raiin ar ail odaiin,ykeey raeinar  ail o daaiin
+108r_14.png,63,2,polCal Sol qokar Sedy pColy qokal opCdy ofal Sor qokaiin otalod,polCal Sol qokar Sedy pColy qokal opCdy  ofal Sor qokaiin otaalod
+108r_15.png,61,5,orain Ceey Cey qokeey Cedy okCedy qoeedy qoKey d iirain okain,orain Ceey ey qokeey Cedy okCedy qoeedy qoKeydir ain okain
+108r_17.png,61,2,fCeokair okedaiin Cedy qokeed okain Cdy laiin ofar Cedy tedam,pCeokair okedaiin Cedy qokeed okain Cdy laiin oKar Cedy tedam
+108r_18.png,63,0,okeedy lkal daiin ykCedy qokol Cedy qokedy lkedy okalo l Cedl y,okeedy lkal daiin ykCedy qokol Cedy qokedy lkedy okalo l Cedl y
+108r_19.png,58,1,dCedy okeedar SCy okol kedy okeedy Cal raiin otedy Ctal om,dCedy okeedar SCy okol kedy okeedy Calraiin otedy Ctal om
+108r_20.png,37,2,dain Cey qokeedy ColCeey dalkar okedy,dain Cey qokeedy olCCeey dalkar okedy
+108r_21.png,61,6,qolSy qoeedy lkealSedy Sokal keedy qotedy qopCedy otal dkedam,qolSy qeedy lkeal eedy  Sokal keedy qotedy qopCedy otal edam
+108r_22.png,60,1,dCeol Sol dal qokaiin otal ol Sedy qokey Cey lor aiin okeeam,dCeol Sol dal qokaiin otl ol Sedy qokey Cey lor aiin okeeam
+108r_23.png,22,2,ykeol Cey okain Carain,keol Cey okain Car ain
+108r_25.png,68,3,y Ceeor aiin okeey Ceol Cedy opCsd opCedy alkedy al lkeam ol rain al,y Ceeor aiin okeey Ceol Cedy apCsd opCedy alkedy allkeam ol reain al
+108r_26.png,68,0,dair okal Cedy qokeedy oteor al qokedy qokedy otaiin otedar Calkeedy,dair okal Cedy qokeedy oteor al qokedy qokedy otaiin otedar Calkeedy
+108r_27.png,64,5,yCedain orCeory qoaiin okeey qokeey Cdal okedy qokedy okedam Cdy,y Cedai or Ceory qoaiin okeey qokey Cdal okedy qokedy okedaim Cdy
+108r_28.png,32,0,sain arolkeey qoal olkedy okaiin,sain arolkeey qoal olkedy okaiin
+108r_29.png,64,2,polCedy okedy qopCedy okeolkey teedy qotaiin otedy okeedy otedam,polCedy okedyqopCedy okeolkey teedy qotaiiin otedy okeedy otedam
+108r_30.png,46,0,ykeol Cedal Cokedy o qokedy okCedy saiin alkan,ykeol Cedal Cokedy o qokedy okCedy saiin alkan
+108r_31.png,65,2,keol Seody qokedy qokeedy qokoy qoiiedy otedy qokedy qokedy qokal,keol Seody qokedy qokeedy qokoy qotedy otedy qokedy qokedy qokal
+108r_33.png,57,2,solkedy okCd qokedy okedy okeol Cdy okar okedy okedy Clar,salkedy okCd qokedy okedy okeol Cdy  okar okedy okedy Clar
+108r_34.png,22,1,yCeol CKy qokedy okain,yCeol Cy qokedy okain
+108r_35.png,63,0,pyCory opCey lkeol Cdar Sedy qofCdy opalal Ceedy qokalCdy opCdy,pyCory opCey lkeol Cdar Sedy qofCdy opalal Ceedy qokalCdy opCdy
+108r_36.png,52,2,okeCy okeol okeedy Ceedar okedy qotal Cdy Cedal Cedy,okeCy okeol okeedy Ceedair okedy qotal Cdy CedalsCedy
+108r_37.png,69,2,tCedy qokey okeey lkeey Cedy Ceokeey qokeey Cedl al lkair alkeedy ram,rtCedy qokey okeey lkeey Cedy Ceokeey qokeey Cedl al lkair al keedy ram
+108r_38.png,37,1,dCeeody Ceedy qokeedy otedy qeeey Cey,dCeeody Ceedy qokeedy otedy qeey Cey
+108r_39.png,64,3,poro l tedo lCdain qokar otedy otarar yty So qotedy oteedy okedy,paro l tedo lCdain qokar otedy oarair yty So qotedy oteedy okedy
+108r_40.png,64,3,okor aiin okeedy qokeedy okeeom Ceykeeed Col qekeey or aiin CKom,okar aiin okeedy qokeedy okeom Ceykeeed Col qkeey or aiin CKom
+108r_41.png,65,3,Seedain qokeedy Cokeedy qoteody keeSo daiin Cedy keedal as keodky,Seedain qokedy pCokeedy qoteody keeSo daiin Cedy keedal ar keodky
+108r_42.png,67,2,okeey qokeey qokeedy qokeey Cedal Cedy qokeey okeedain otain oolals,okeeey qokeey qokeedy qokeey Cedal Cedy qokeey okeedain otain olals
+108r_44.png,30,1,yCey Cey okar Caram otam Ceody,yCeyCey okar Caram otam Ceody
+108r_45.png,63,2,dain SeKy okeey keey lCedy okeey qokedy Cedy dalkedy qokedy dal,dain SeeTy okeey keey lCedy okeey qokedy Cedy dalkedy qokedy dal
+108r_46.png,63,0,yteedy qokeed y qokey otedy okedy qokaiin Ceodar Ceey qokedy al,yteedy qokeed y qokey otedy okedy qokaiin Ceodar Ceey qokedy al
+108r_47.png,60,2,yCed CoKey dain Seol okedy lkeedy oteedy qokeedy Ced al keam,yCe CoKey dain Seol okedy lkeedy oteedy qokeedy Cedal keam
+108r_48.png,67,2,pCeedy qokeo l okeol keol dain ar otedy qokedy qokeedy qokeedy lCdy,peedy qokeo lokeol keol dain ar otedy qokedy qokeedy qokeedy lCdy
+108r_49.png,65,1,oteedy lCedy qokeedy qokeedy qokeo lCedy qokey qokeey lkedy lkedy,oteedy lCedy qokedy qokeedy qokeo lCedy qokey qokeey lkedy lkedy
+108r_50.png,56,2,qokeedy lCedy lkaiin Cdy qokey okedy okaram Cdar ar okam,qokeedy lCedy lkeaiin Cdy qokey okedy okaram Cdarar okam
+108v_04.png,48,2,dCedy Sedy qokeed qoteedy qoteedy arain al keedy,dCedy Sedy qokeed qotedy qoteedy asain al keedy
+108v_05.png,67,3,polaiin okedain okal otCedy qokeedy raraiin o keedy qokar qokal dam,poaiin okedain okal otCedy qokeedy raraiin okeedy qokar qokaldam
+108v_06.png,67,2,oeeedain Cey lokeey lCedy loety qokeedy qokeey qokar okeedy kedarxy,oeeedain Cey lokeey lCedy loty qokeedy qokeey okar okeedy kedarxy
+108v_08.png,66,6,ySeedy okeedy oteedy qokeedy okeedy okeedy Cedal okar qoteedar oty,ySeedy okeedy oteedy qokeedy okeedy okeey CCedal okeir  qoteedr oty
+108v_09.png,61,5,qokeeo dar Cedam Clal okaldain Seed lCedy l keedy Ced kel Tdy,qokeeo dal Cedam Clal okaldain Seed lCedy lkeedy CCCed kl Tdy
+108v_12.png,67,0,tSedky SeKy akey Seey teeody qokedy qokeedy Sok ar aiin okeey tedam,tSedky SeKy akey Seey teeody qokedy qokeedy Sok ar aiin okeey tedam
+108v_14.png,44,3,qokeey lo r aiin Cey keear a ral olaiin Cedy,qqokeey lor aiin Cey keear aral olaiin Cedy
+108v_16.png,69,3,okeey lSey qokeeal lkeey okeol okedy qotal Solkeedy Cedy qokain teedu,okeey lSey qokeeol lkeey okeol okedy qotal Solkeedy Cedy qokain teedan
+108v_17.png,67,2,qokeey lkeed Cedy qokeeos Seol tedy qopCdy qokeSdy kedar otal raram,qokeey lkeed Cedy qokeeor Seol tedy qopCdy qokeSdy kedar otal raramm
+108v_18.png,67,4,okeey l keedy okeal okey Ceykedy qoeedy lo rair Ceey ol l s aiin am,okeey lkeedy okel okey Ceykedy qeeedy lo rair Ceey ol ls aiin am
+108v_19.png,21,2,qokeeol olCeeey lCeam,qokeeol olCeey lCeak
+108v_20.png,67,5,polkeedal Seo kCey lotedaiin otedy opCedaiin otSedy qotey r aiin ol,polkeedal SeokCeey lotedaiin otedy oPCedaiin otSedy qotey rain ol
+108v_21.png,70,2,daiin Sol olkeeey lky Cedar Cey keCey qotedy otedy oteedain Ceody llod,daiin Sol olkeeey lky Cedar Cey keCey qotedy otedy oteedain eody lod
+108v_23.png,65,8,qokeeor okeey qoeey Codaal daiin CeTal Ceeky otar aiin CKy lteedy,qokeeeor okeey qoeey Co deeal daiin CeTal Cedy otar aiin CKy lted
+108v_24.png,62,3,daiin Cekeek CeKy ol r ain odar Seey daiin tCar okeedaiin oram,daiin Cekeek CeKy ol r ainodar Seey aiin tCar okeedaiin aram
+108v_25.png,68,4,Seeol okeey kaiin okaiin ol lCey Teo r aiin Ceey qokeey qokeeaiin al,Seel okeey kaiin okaiiinol lCey Teo raiin Ceey qokeey qokeeaiin al
+108v_26.png,70,6,sair okeaiin Ceol Sedy qokeeey dlaiin ar or lkar Car aiin okal ldyr ls,psai okeaiin Ceoll Sedy qokeeey dlaiiin ar or lkar Car aiin okal ldar lr
+108v_28.png,69,5,paror aiin Sedy qokey qol eees aiin lal lkeeedy otain Seey Col tan al,poror aiin Sedy qokey qol eees aiin lal lkeeedy otain SeeyCol kanol
+108v_30.png,73,2,polSedaiin qokeoy keol Cokeol qotedy qoteedy dar raiin Sedy qotain oteedy,polSedaiin qokey keol Cokel qotedy qoteedy dar raiin Sedy qotain oteedy
+108v_31.png,68,2,ol Ceol Sed qokedy qokedain CeKed qoteedy otedy qokedy okeea r l kam,ol Ceol Sed qokedy qokedain CeKed qoteedy otedy qokedy okeeor l kam
+108v_32.png,64,2,dain Sedain qokedar olkeedy qokeedy Sedy Cedar Cedy oteedy qokam,dain Sedain qokeddar olkeedy qokeedy Sedy Cedar Cedyoteedy qokam
+108v_33.png,69,3,sain ain Cey lCs Sed qokeedy oteey qokedy qokeedy Ceedy qokeedar oldy,sain ain Cey lCs Sed qokeedy oteey okedy qokeedy Ceedy qokeedarody
+108v_35.png,66,1,daiin Cedy lCedy Solkeedy qokeedy Cey qokeey qokeedy oteedy lCedam,diin Cedy lCedy Solkeedy qokeedy Cey qokeey qokeedy oteedy lCedam
+108v_36.png,64,5,daiin SeCy qokedy qokain Cor Cal Cal Cedy dain alal keedy otalys,daiin SeCy qokedy qokain Cor al Cal Ceedy dain al al kedy otal ys
+108v_37.png,59,2,sain Seor Seey SeKey qokey okey Sey lkain Sedy qokain dalam,sain Seor Sey SeKey qokey okey Seey lkain Sedy qokain dalam
+108v_38.png,64,1,dSeol qokeedy qokeedy Cey qokeedy qokedy SeKy lkedy qoteedy otam,dSeol qokeedy qokeedy Cey qokeedy qokedy SeKy lkedy qotedy otam
+108v_39.png,63,2,sain Cey lkedain Cey rar ain al Cear olor Cedaiin oteey Cedy rl,sain Cey lkedain Cey rar ain all Cear olor Ced aiin oteey Cedy rl
+108v_40.png,69,4,daiin Seeal qokeedy qokeedy qokeedy qotey qokeey qokeey otedy qotaiin,daiin Seeal qokeedy qokeedy qokedy otey qokeey qokey otedy qotain
+108v_41.png,61,4,dSedy tedy CeKey Seeky lSeedain Sear olkedy Cy kar tar otaiin,dSedytedy SeKey Seeky lSeedain Sear olkedy So kar tar otaiin
+108v_42.png,68,0,yCeain Cey lCeal ykeey qolCeedy qokeedy okeedy qokey qokeedy qoteedy,yCeain Cey lCeal ykeey qolCeedy qokeedy okeedy qokey qokeedy qoteedy
+108v_43.png,63,3,Sodain Ceal Sedy rCeetey qokeey Ceolkeedy Ceol Cedytey okeearam,Sodain Ceal Sedy rCetey qokeey CeolkeedyCeol Cedytey okearam
+108v_45.png,66,2,Seol Sedy qokeey Cedar Seal qokeedy qokeedy qokey Seey qokeal aral,Ceol Sedy qokeey Cedar Seal qokeedy qokeedy qokeySeey qokeal aral
+112r_02.png,43,2,saiin oar qolkaiin otail ol olaiin Col otar,saiin oar qolkiiin otal ol olaiin Col otar
+112r_03.png,43,1,or Cedar Ceey oteedy oteedy otaiin oty odys,or Cedor Ceey oteedy oteedy otaiin oty odys
+112r_04.png,40,0,qokeedy Cokain otain otar Cedy taim oram,qokeedy Cokain otain otar Cedy taim oram
+112r_05.png,46,3,otair o kody otody otal okeeey otar am oain oy,otairokody otody otal okeeey otar am oaain oy
+112r_06.png,44,0,Cedal oteedy okeey qokeedy olkeedy oteeyoram,Cedal oteedy okeey qokeedy olkeedy oteeyoram
+112r_07.png,48,4,taiin olkeedy qoteo l oeey keey qokeey oteedyram,taiin olkeedy qoteo l oeey keey qokey oteedy s
+112r_10.png,23,1,dair al Cedy qodain dam,dair al Cedy qodaiin dam
+112r_11.png,49,3,tCedy qoteey qeol qokeey otey qokeey qokedy Cotyr,tCedy qoteey qeol qokeey otey qokeey qokedy Coka
+112r_12.png,50,3,dCedy qo otCedy Cdy qokeey qotain oteedy oteey ror,dCedy qootCedy Cdy qokeey qotain oteedy oteey romm
+112r_13.png,49,1,sor aiin Cdy Ces qokeey okeey otaiin CTy oteey dy,sr aiin Cdy Ces qokeey okeey otaiin CTy oteey dy
+112r_14.png,34,3,soarar al Cey otaiin okeedy qokeey,soararal Cey otaiin okeedy qokCy
+112r_15.png,47,2,poar alCar oTy otedy qokeedy okedy pCedy opamdy,por alCar Ty otedy qokeedy okedy pCedy opamdy
+112r_18.png,46,0,saiin al key Cey dalCd aiin okal Cody Cedy Cam,saiin al key Cey dalCd aiin okal Cody Cedy Cam
+112r_19.png,54,6,polCdy o l otal y raiin Seky qeey qokey qokeey qoky am,polCdy ol otaly  saiin Seky qeey qokey qokeey qokam
+112r_20.png,54,0,qoaiin or aiin Ceol keody qol keol okeeey dal aiin ody,qoaiin or aiin Ceol keody qol keol okeeey dal aiin ody
+112r_21.png,51,8,sol keedy raiin CTey okeedy qoteedy qeey rair al sy,solkeedy raiin CTey okeedy qoteedy ay rainy ol y
+112r_22.png,18,2,daiCy lCedy qoinal,daiCy lCedy qiin al
+112r_23.png,60,9,qoain qoiin olCeedy dairiy teedy qopol Cdy oteor oTdy otyCey,qoai qqoiin olCeedy dair tCdy qofol  Cdy oteor oeTdy otyCey
+112r_24.png,59,6,Ceeteey qokeeey lkeey okeedykey lkedy qokedy otedy otedy lo,Ceeteey qokeey lkeey okdykey lkedy qokedy otedy otedy
+112r_25.png,56,3,tedain Sedy oCor okCd ykedy kedy Cor aiin Ceety CTy okey,tedain Sdy oCor okCd ykedy kedy Cor aiin Cety CTy oky
+112r_26.png,15,1,toKy Cedy Cedam,tKy Cedy Cedam
+112r_27.png,52,2,pColkeedy okCoiiin aky opCedy kolfCdy opCedy lky Sty,pColkeedy okCoiiin aky opCedy kolfCdy opCedy kySty
+112r_29.png,60,7,sar aiin olSedy Cokeey sal okaiin oteey qokeey olor al Cealy,sar aiin olSedy Cokey sall okain oteey qokey olar ol Ceealy
+112r_31.png,60,12,pair al keolor okaiin otain oteey lCedy okeeor oteor karainy,qaral keolor okaiin otinn oeey lCedy okeea kor karain
+112r_32.png,59,5,sor ar al ar s alkeeor ol Sedy okeeCy qoiiin oteey Ced alam,sor aral ar s alkeeor al Sedy okeeCy qoiiin oteey Ced   alarm
+112r_33.png,39,3,sarol okCeey Pedy SKey okeeor Cedy Sdal,arol okCeey Pedy SKy okeeor Cedy Cdal
+112r_34.png,60,1,pair ar l Sdar okeCedy qokar aram qotedy araiin qokCdy opary,ppair ar l Sdar okeCedy qokar aram qotedy araiin qokCdy opary
+112r_35.png,59,1,sain olaiin qopCdy qoky okeal Cedy okeey otedy ar ar okeedy,sain olain qopCdy qoky okeal Cedy okeey otedy ar ar okeedy
+112r_36.png,30,1,sain ol CeKy olCain okeey olam,sain ol CeKy olCain okey olam
+112r_37.png,60,8,pam okaiin olkedy okedy okeey okeedy keedar otear Skear qoky,ppo okaiin olkdy okedy okCy okeedy keedas oteor Skeor qoky
+112r_39.png,57,5,polkeedy qopal otedy opal aiin okaiiin Seody yteokar ogom,polkedy qopal otedy opal aiin okaiiin Ceoody yteokar odam
+112r_40.png,54,2,sain okal lkeedy okar okCedy qokal keedy Ckey oty oral,sainokal lkeedy okar okCedy qokal keedy Ckey ot oral
+112r_41.png,53,4,ySesy alain Ceey okCey qokCy okCaiin ykeeor okeey ory,ySesy alain Cey okCey qokCy okCaiin ykeeos okCy ory
+112r_45.png,60,14,yor aiin o keeey teey Skar oteeedyqokeey okeey okary oin yky,yar ain okeey teey Sekar oteeedyqekeey okey okam a kyy
+112v_01.png,50,2,keeoal Cool opal otalair y fCeol oteey qor eees am,keeoal Cool opal ota air y fCeol oteey qor Cees am
+112v_03.png,54,3,qokeeor ar Seey or ar aiiin okeey l keeody Seedy qotam,qokeeor ar Seey or  ar aiiin okeey lkeeody Sedy qotam
+112v_04.png,51,5,Sody qo oeeeody oteey qokeedy okeey qokeedy qoky am,Sodyqo oeeeody oteey qkeedy okeey okCedy qokyam
+112v_05.png,52,1,sain aiiin okey daiin otal Cear okedy okaiin Ceeoldy,sain aiiin okey daiin otal Cear okedy okaiin Ceeo ldy
+112v_07.png,52,2,pCeokeey oeeeky qoteedy oees aiin oteor opCdar opary,pCeokeey oeeeky qoteedy oeesaiiin oteor opCdar opary
+112v_08.png,52,1,oCeor okar aiiin otaiin okal okar otal kedy Cekaiiin,oCeor okar aiiin otaiin okal okar otal kedy Cekaiin
+112v_10.png,21,3,dain Seey okCedy oror,dain Seey otCedy ro
+112v_11.png,53,1,tCor aiin odeedy oteeey qokey lody CFy oCos aiin olky,tCor aiin odeedy oteeey qokey lody CPy oCos aiin olky
+112v_12.png,57,1,daiin al olkeedain oteey Seeol qokeedy qoCaiin oteey qoty,saiin al olkeedain oteey Seeol qokeedy qoCaiin oteey qoty
+112v_13.png,51,1,dCeoty oy otCedy Cedy daiin Cedal Cedy qokaiin otam,dCeoty oy otCedy Cedy  daiin Cedal Cedy qokaiin otam
+112v_15.png,58,2,pCodain okeedy qokeedy olkeedy qokain Seey qokedar aiin am,podain okeedy qokeedy olkeedy qokaain Seey qokedar aiin am
+112v_18.png,58,4,saiin or aiin Cey qokeedy qokeeey qokeeody qotam olaiin am,sain okaiin Cey qokeedy qokeeey qokeeody qotam olain am
+112v_19.png,44,1,s arain ain al qoeeey qoteo ar aiiinol Calor,s arain ain al qoeeey qoteo ar aiiinol Calorr
+112v_20.png,55,3,pCoraiin ar alCedy olkeedy qokedy qotaiin CoTedy saisal,pCorain ar alCedy olkeedy okedy qotaiin CoTedy sairal
+112v_21.png,59,3,saiin Cekain Ceol qoeedy Col keedy qokaiin Sedy qokeol kain,saiin Ckain Ceol qoeedy Col kedy qokaiin Sedy qokeal kain
+112v_23.png,59,2,yCeol keeor olkeeey Cedain ol Ceedaiin Seedy qokeedy qotain,yCeol keear olkeeey Cedain ol Ceedaiin Sedy qokeedy qotain
+112v_25.png,64,3,pCdaiin Sedy otaiin Ceedy qokeeey l keeedy Ceey lor eeedy qokeey,pCdaiin Sedy otaiin Ceedy qokeey lkeeedy Ceey lor eedy qokeey
+112v_26.png,44,0,yCedal CeKey CeKy Ceeol qokeedy qoteosam Cos,yCedal CeKey CeKy Ceeol qokeedy qoteosam Cos
+112v_27.png,65,3,pCodain aiin teeedy qoeey okeedy qokeear al okedal olkeedy qotedy,tCodain aiin keeedy qoeey okeedy qokeear al okedalolkeedy qotedy
+112v_28.png,67,5,Sey keedal aiin Ceol keeeody qoiin ykeey qokeeey ykeey qoeey qokaim,Seey teedal aiin Ceo l keeeody qoiin ykey qokeeey ykeey qoeey qokam
+112v_29.png,38,2,Seey qoeekain ol kain alor Cedal Seody,Se qoeekain ol kain alor Cedal Seody
+112v_30.png,63,3,polor Seedy okeedey sal aiin Seedar okedy qopCedy dalkedy opCdy,polar Seedy okeedey sal aiin Sedar okedy qopCedy dalkedy pCdy
+112v_31.png,27,5,tar aiin okeear oteody arar,taraiin okCar oteody ra
+112v_33.png,64,0,or Ceeor okeedy qokedy qokeedy Cedaiin okeeedy otaiin Ceekey Col,or Ceeor okeedy qokedy qokeedy Cedaiin okeeedy otaiin Ceekey Col
+112v_34.png,51,0,saiin Cedaiin CeKy lkeedy qokeedy Ckaiin CeKol Cdam,saiin Cedaiin CeKy lkeedy qokeedy Ckaiin CeKol Cdam
+112v_35.png,35,5,pCed Sedain qokaiin okees Cedy CeKy,Ce Sedain qokaiin okar Cedy CeKy
+112v_36.png,60,4,tCede okeey lky Sedaiiin Cdy qokeedy Ceky lkedy qotedy raram,pCedy okeey lky Sedaiiin Cdy qokeedy CCeky lkedy qotedy rarm
+112v_37.png,62,1,teedal sain ar otaiin Sedy qokedaiin ar qokaiin Col kedy qokam,tteedal sain ar otaiin Sedy qokedaiin ar qokaiin Col kedy qokam
+112v_38.png,56,3,sa ar oiin okCey al Cedy Col otaiin Cedar lkain Ceo dain,sa ar aiin okCey al Cedy Colotaiin Cedarlkain Ceo dain
+112v_39.png,59,0,teodarody opCeed okaiin Caiin otam oteedy qoteey qotain CTd,teodarody opCeed okaiin Caiin otam oteedy qoteey qotain CTd
+112v_40.png,58,6,y Ceol lCedy CKy CeolCal SCy daiin Ceolor okain Cedy daiin,Ceo lCedy CKy Ceo lCal SCy daiin Ceolor o kain Cedy daiiin
+112v_41.png,22,3,ykeedan CeKey oain Col,ykeed ai Ceey oain Col
+112v_43.png,63,8,ooeeor oeeal olkeol al Col Cl olCedy ykeedy Ctal kar opCy famam,ooer oeeil olkeol l Col Cl alCedy ykeedy Ctal kar oCy pagam
+112v_44.png,55,3,qokCal qokey qaiin otol teol okal otedar epalCdy alpCdy,qokCol qokey qain otol teol okal otedar opalCdy alpCdy
+112v_45.png,55,5,yCeey Cokeey okasal tCdy oteol CTy alaiin Car al kamdam,yCey Cokeey okar al tCedy oteol CTy alaiin Car al kam dam
+112v_46.png,61,2,ykeey lor Caiin Ceky Cokain Car am Cey kain Cdal okaiin daldy,ykeey lor Caiin Ceky Cokain Caram Cey kain Cdall okaiin daldy
+27r_03.png,39,0,Col Sy keol Col Cy Sol Cy daiin Cey dam,Col Sy keol Col Cy Sol Cy daiin Cey dam
+27r_04.png,34,1,qokey Cor Car Cy dCy keey Cos Tody,qokey Cor Car Cy dCy keey os Tody
+27r_08.png,35,2,ytCy Cy t Col dy t Cey dain Col dal,ytCy Cyt Col dy t Cey dai Col dal
+27r_09.png,33,1,dCey keeod SotCey Col oty Cy tolg,dCey keeod SotCey Col oty Cy toly
+27r_12.png,25,2,dain Ceokeey Cey Tey otal,dain Ceokeey Ceey ey otal
+27v_02.png,45,7,dCy Ckar otCy Sy Sy dCy dSy kCy Ceo daidy dCy,dCy Cekar otCy S Sy dCCo dSy kCd eo daiidy dCy
+27v_08.png,13,8,okSes okCokSy,okSSees    okCo k
+28r_01.png,43,8,pCodar Sod CoPy opCol daiin otCol Cy qo ldy,Codar Sod Coy ofCol daiin TColCy qold
+28r_03.png,37,5,qotCaiin Sor Tol Tol Sor CotCy tCodar,qotCaiinn Cor Tol Tol Sorr CotC Codar
+28r_05.png,39,6,okSo otorCy kCoror Codaiin So Tody okoy,o kSo otor Cy kCoror Codaiin y Cody otoy
+28r_06.png,43,3,qokCol qodaiin otColCy daiin Co qokol o kam,qokCol qodaiin otColCy daiin  Co qokol y kar
+28r_08.png,44,4,osCotSl daiin okCey kol daiin Sol dSo otaiin,osCotCl daiin otCey kol dain Sol dSo otain
+28r_09.png,23,3,ytCol deey yteol deaiin,tkCCol deey yteol deaiin
+28v_02.png,47,1,ykColy qoty Cy dy qokCol Cor tCy qokCody Ceor o,ykColy qoty Cydy qokCol Cor tCy qokCody Ceor o
+28v_03.png,16,3,Cor Col Cy Coiin,Cor So l Cq Coiin
+28v_04.png,47,2,tSoiin Ceor Cor o Cty qotol Seol Sor daiin qoty,pSoiin Ceor Cor o Cty qotol Seol Sor daiinqoty
+28v_05.png,48,3,otol Col daiin Ckaiin Soiin qotCey qotSey daiiin,otol Col daiin Ckaiin Coiin qotCey qotey daiiinn
+28v_06.png,12,4,daiin Ckaiin,daaain C kaiiin
+29r_02.png,42,8,dSe ykCy Coty oky Co l CCoty Coky Cy ty dy,dS ykCy Coty oky Coty Coky Cy ty d
+29r_03.png,36,4,qokCy qoty kCaiin Sear Tor dCor Coly,qotCy qoty kCaiin Seor Tor   dCor Coly
+29r_04.png,13,2,CoTy qoos Cos,CCoT y qoos Cos
+29r_06.png,33,2,CokSy SoTy Sor Sor daiin qokaiiin,CokSy SoTy Sor Cor daiin  qokaiiin
+29r_07.png,40,5,qokCy Col SokCy qokaiin Coety Coty kaiin,qokCy Col okC qokaiin Cok Coty kaiin
+29r_09.png,27,2,qokSe qor Cey kor Ceod yCom,qokSe qor Cey ko r Ceod yCeom
+29v_01.png,46,12,kooiin Sor CetCy ol ls SytCy Ty Sy Co Sy daiin,koin Sor CetCy olalr SykCy TySy s kCoSy  dain
+29v_02.png,42,3,qotCeaiin s Col Col Ty Cey Told ytCor dary,qotCeaiin s Col Col  Ty Cey Told k ytCor dary
+29v_06.png,36,6,dCor Col Caiin Saiin Tod dar Cs Sody,dCor Col Coiin Sain Tod dar  Cr odys
+29v_09.png,37,3,So Cokor Cor Cy ydaiin Co ykeeb oaiin,So Cokor Cor Cy ydaiin Co ykn oaiin
+29v_12.png,18,4,qekeoCor otCey s y,qkeoCoor otCCey sy
+30r_02.png,48,4,yCody Cey Ckeey kSo keeor Ceor Sey Se keeodol sy,yCody Cey Ckeey kSo keeor Ceor Sey Se keeodo
+30r_03.png,45,10,Codaiin Co ry Cey doiin sain Corain Ceey keem,Co daiin Ceo ry Cey doiin s aiin orai Ceey g
+30r_04.png,38,2,qokeCy qoko qop Car soin Can qot Caiin,qokeCy qoko qop Cal soin Can qot Cain
+30r_05.png,38,2,Coko qokoCy deeey dkeeor Ceoldain Cory,Coko qokoCy deeey d keeor Ceoldain Cor
+30r_06.png,39,1,dCorol So Cor Co ro raiin dor Cseeor dy,dCorol So Cor Co ro raiiin dor Cseeor dy
+30r_07.png,14,1,qor Cain TorCy,qor Cain TorCey
+30r_13.png,26,3,Codaiin CtCey Cear Sy keey,Codaiin CkCey Ceor Sykeey
+36r_02.png,45,4,oral Sor ytaiin qotaiin qooldy Cty Col dy tor,oal Cor y taiin qotaiin qooldy Cty Coldy tor
+36r_05.png,40,4,daiin qor Col Toly s o r Cy sy Cytaroiin,daiin qor Col Toly s ly r Cy sy y Cytaroiin
+36r_06.png,33,4,okaiin Tor y kaiiin s dain an dan,okaiin Kor ykaiin s dain anm dan
+36r_07.png,35,4,qotol Tol okol dy okCy ytorory sold,qotol Kol okol dy okS ytorory  sold
+36r_08.png,18,2,ytCor Tol Caiin yd,ytCor Tol  Caiiin yd
+36r_09.png,19,1,ytodaly daiin otaro,ytodaly daiiin otaro
+36v_03.png,42,1,dCytCy ytor s otaiin qopCor otar otCaiin s,dCytCy ytors s otaiin qopCor otar otCaiin s
+36v_04.png,27,4,qotCor y ky ty dy daiin Tor,qotCor yky tyd  daiin Teor
+36v_05.png,21,4,tCor Koiin daiin PCar,CCor aiin daiin TCar
+36v_06.png,23,2,daiin Tor daiin dal dys,iin Tor daiin dal dys
+36v_08.png,24,2,ykSy ytCy dol y tydy yky,ykSy ytCy dolyy tdy yky
+36v_09.png,21,1,okaiin y kColqod Cory,okaiin ykColqod Cory
+36v_10.png,20,5,ykCotCy daiin daiild,ykCo daiin d aiiild
+36v_12.png,15,1,ytol kCy oty Cd,tol kCy oty Cd
+36v_13.png,14,7,oky Se Tol oty,okkky SS Toool ottty
+36v_14.png,11,6,soiin Ctain,s ooiin  Ct aaain
+37v_02.png,25,1,dor Col Tor orCoCor daiin,dor Col Tor orCoCar daiin
+37v_03.png,22,2,qokCon Sy Con daiin dy,okCon So Con daiin dy
+37v_04.png,22,0,dSor dytory dSor daiin,dSor dytory dSor daiin
+37v_06.png,21,1,yokor ytCor saiin oty,yokor ytCCor saiin oty
+37v_07.png,12,7,qotCor daiin,qqotCorr   ddaaiiin
+37v_08.png,23,2,qotor Coiin CetCy daiin,qotor Coin CetCy daiini
+37v_09.png,23,1,dor Cor So daiiin daiin,dor Cor S daiiin daiin
+37v_11.png,23,3,qotoiin Coror Tol daiin,qotaiin Coror Tol ddaiinm
+37v_15.png,23,2,soiiin Ceoky daiin dain,soiiin Ceoky daiin da
+37v_16.png,19,3,qotor daiin Cotaiin,tor daiin Cootaiin
+37v_17.png,23,0,sokCor qokoiiin ykeeols,sokCor qokoiiin ykeeols
+37v_18.png,21,2,oyteey daiin daiinody,oyyteey daiiin daiinody
+37v_19.png,24,1,daiin qkaiin qotal daiin,daiin qkaiin qotaldaiin
+37v_21.png,18,1,oSTo do daiin Tols,oSTo do daiiin Tols
+37v_23.png,13,9,yto Col daiin,ytoo  CCooll ddaaiiiin
+79r_01.png,50,7,torain Sedy pCor or Sek otarpCdy opColor otal Sedy,korin Sedy Cor or Sek otarpCedy opCalorottal Sedy
+79r_02.png,52,5,qoteedy lSdy otCedy olSey olSee qol Seey qoteey loly,qoteedy lSdy otCedy olSey ol SCyy qolSeey qoteey loly
+79r_03.png,53,5,ySealdy rSedy qoteedy CKey qo y Cey lCey qokeey rCedy,ySeoldy r Sedy qoteedy CKeyqo y Cey lCey qokey r Cedy
+79r_04.png,59,2,teey dar qotar Seds Seekeey qokeey okey qolSy olCey qoky ol,teey dar qotar Sed Seekeey qokey okey qolSy olCey qoky ol
+79r_05.png,55,4,qokal Sedy CTy or Cear salCey qol Sal Cey l Ceol Col Cy,qokal Sedy CTy or Cear solCey qol Sal Cey lCCeeol Col CCy
+79r_06.png,44,1,Sol okar ol olkeey qokey sain olCeey qol Cey,Sol okar ol olkeey qokey sain olCeey qol Sey
+79r_07.png,52,1,polCedy qokar Sey qokl ol Ceey qokain Cey qoty qokar,polCedy qokar Sey qokl olCeey qokain Cey qoty qokar
+79r_08.png,48,0,qokol Ceedy qokal Sed ykCedy CTy yoky qokal Colo,qokol Ceedy qokal Sed ykCedy CTy yoky qokal Colo
+79r_09.png,52,0,saiin Sedy pSeedy qokar Seol qolCey qoty qokal qokam,saiin Sedy pSeedy qokar Seol qolCey qoty qokal qokam
+79r_12.png,35,1,qokCy qotCey ldain Sedy qotaiin sal,qokCy qotCey ldain Sey qotaiin sal
+79r_13.png,49,5,pSorol SKy qotSdy qokaldy opCedy qotar or aiin ol,pSorol Sekey qotSdy qokaldy opCedy qotar oraiinol
+79r_14.png,50,1,saral qokain CeKy qotal qol Ceey Cey dain Cedy qol,sar al qokain CeKy qotal qol Ceey Cey dain Cedy qol
+79r_15.png,49,1,qokl Sey qokal Cedy okol dyty r aiin ol Seol lCey,qokl Sey qokal Cedy okol dyty raiin ol Seol lCey
+79r_16.png,46,1,Sain SKy qoly kSedy otal Seey qokain Sey qokam,Sain SKy qoly kSeedy otal Seey qokain Sey qokam
+79r_17.png,50,0,qokaiin Sy lSeey ls air or aror otaiin Ces olol ol,qokaiin Sy lSeey ls air or aror otaiin Ces olol ol
+79r_18.png,54,1,solor olSey qokaiin Cey qokain otain otain otal ol dam,solor olSey qokaiin Cey qokain otain otain otal oldam
+79r_21.png,49,6,pol Sar SarpCey otSey okaos aiin okSey dalkeeeyry,ol Sor SarpCey otSey okal  s aiin okSey dalkeeey ry
+79r_22.png,51,5,lCey dal Seedy efCedy otain Sey qofCey ol dorCedCey,lCey dalSeedy pCedy otain Sey qopCey ol dorCedey
+79r_24.png,51,2,qokSedy qolkeey qolkeedy qokedy otain otCey okain y,okSedy qolkeey qolkeedy qokedy otainn otCey okain y
+79r_25.png,41,1,ColCey qotSy qol Sey qokar Sedy oteey CTy,ColCey qotSy qol Sey qokar Sedy otey CTy
+79r_26.png,52,2,polaiin olteedy qotCey dykeedy qokCdy opCedy Sol ory,oplaiin olteedy qotCey dykeedy qokCdy opCedy Sol ory
+79r_27.png,50,1,qokeedy Seey kas Ceey olkaiin ol ory Color oty oky,qokeedy Seey kar Ceey olkaiin ol ory Color oty oky
+79r_29.png,45,1,lCeey qoCey qody qokal olor okCd dCol dCy oly,lCeey qoCey qody qokal olor okCd dColdCy oly
+79r_30.png,23,4,y Sedy qotal ySeey olor,sy Sedy qotal y Seey oloin
+79r_31.png,45,3,polSey oltSedy Seol ykeey okeey Ceor Seedy ol,polSey oltSedy Seol oky okeey Ceor Seedy ol
+79r_34.png,34,3,lCeol kCedy qotas Seey teol oteedy,lCeol kCedy qotar Seey  teol otedy
+79r_35.png,41,4,polCedy Sedy qoteedy qotain ody CKes otal,pol eedy Sedy qoteedy qotain o dy CeKes otal
+79r_37.png,42,1,lCeol ol ol Seey olSeey Solkeey okCey dain,dCeol ol ol Seey olSeey Solkeey okCey dain
+79r_38.png,23,0,pol olkeeey Seol qokeey,pol olkeeey Seol qokeey
+79r_41.png,46,0,qokain Sedy qotain oteedy Ckain ol ol Cedy oly,qokain Sedy qotain oteedy Ckain ol ol Cedy oly
+79r_44.png,24,3,ody aran okeey dar Ceory,daaran okeey dar Ceory
+79v_02.png,43,0,qoteedy qokCey qoty lSey qokain Sey qorCedy,qoteedy qokCey qoty lSey qokain Sey qorCedy
+79v_03.png,48,1,dolSeol okCy qokain Seedy qokSedy qokeedy otaram,dolSeol okCy qokain Seedy qokSedy qokedy otaram
+79v_04.png,47,1,qokeedy qokeedy qotain sol Cedy rCey qoky lCedy,qokeedy qokeedy qotain sol Cedy rCey  qoky lCedy
+79v_05.png,51,2,qolkeedy qokedy qotal saiin ory qokedy oteedy lCeam,qolkeedy qokedy qotol saiin ory qokedy okeedy lCeam
+79v_06.png,46,0,yCeKey r ain Cedy qokain Cedy ol Sedy dar ytam,yCeKey r ain Cedy qokain Cedy ol Sedy dar ytam
+79v_07.png,46,2,qokSey qokeedy qol kedy qokeedy qokain solCedy,qokSeey qokeedy qol kedy qokeedy qokain solSedy
+79v_08.png,49,0,yCedy qotey okedy tedyol Seedy qokeey qoteedy lol,yCedy qotey okedy tedyol Seedy qokeey qoteedy lol
+79v_09.png,31,0,sar ol Seey qokeedy qokeCey qol,sar ol Seey qokeedy qokeCey qol
+79v_10.png,46,1,pCedy lSeKedy qokeey qokaiin olky opCedy pCedy,pCedy lSeKedy qokeey qokaiin olky opCedy Cedy
+79v_11.png,43,1,olCeey lCedy qolkeedy qokain CKy otar olkam,solCeey lCedy qolkeedy qokain CKy otar olkam
+79v_12.png,51,1,pSdy ofCdy qokedy qoteedy qokedy qoltedy qotedy oky,pSdy opCdy qokedy qoteedy qokedy qoltedy qotedy oky
+79v_13.png,51,1,dain ar olSey dytain qokain CeTy okeedy qokeedy ror,dain ar olSey dytain qokaiin CeTy okeedy qokeedy ror
+79v_14.png,54,2,qokeey qokedy okeey qokol Seedy qokeedy rolCey qokeedy,qokeey qokedy okey qokol Seedy qokeedy rol Cey qokeedy
+79v_15.png,51,0,yteedy qokeedy qokain olkeey Ceokain dy teey qokain,yteedy qokeedy qokain olkeey Ceokain dy teey qokain
+79v_16.png,50,0,dol Seey qol olkSey qokeedy olkeedy qol okaiin oly,dol Seey qol olkSey qokeedy olkeedy qol okaiin oly
+79v_17.png,50,1,qol Seey Col ol dar qokaiin Ceekey qoky otain oram,qol Seeey Col ol dar qokaiin Ceekey qoky otain oram
+79v_18.png,55,1,qokain Seey qokeey teey oteey lCeey qokeey olkeedy rCey,qokain Seey qokeey teey oteey lSeey qokeey olkeedy rCey
+79v_19.png,54,2,ykail Sy qolar Sey qokedy qokedy qokedy dar olkain Cam,ykail Sy qolar Sey qokedy qokedy qokey dar ol kain Cam
+79v_20.png,51,0,dCedy lCey qety Sedy okain ykees olkey oty Sey qoly,dCedy lCey qety Sedy okain ykees olkey oty Sey qoly
+79v_21.png,47,1,dSey qokal Seedy Seky orain otSdy dain Ter aror,dSey qokal Seedy Seky orain otSdy dain Te aror
+79v_23.png,48,3,tolkey okar ol okaiin otylor qokol okeedy dalary,tolkey okar ol okaiin o ky lor qokol okeedy dalary
+79v_24.png,55,1,yCeear o oiin oeedy qotain Cedy qokeey oteey qokeey lol,yCeear o oiiin oeedy qotain Cedy qokeey oteey qokeey lol
+79v_25.png,50,2,qokeey ol olSdy qotain oteedy olkain otSey sain ol,qokeey ol olSdy qotain ooteedy ol kain otSey sain ol
+79v_26.png,52,3,ykeedy okaiin dykaiin otedy dkeey tar ol otol oiiiny,ykeedy okaiin ykaiin otedy dkeeey tar ol otol oiiny
+79v_27.png,32,1,odCey kar akain opar otain olkey,odCey kar okain opar otain olkey
+79v_28.png,53,3,pCey kSeol qokain ofCedy otalSdy olkair otaiin okeedy,pCey kSeol qokain fCedy otalSdy olkir taiin okeedy
+79v_30.png,51,0,qokain Seeky okar okey qokey tedy skain oteedy qoky,qokain Seeky okar okey qokey tedy skain oteedy qoky
+79v_31.png,48,3,ySees aiin o ykeedy qokeedy qokar oteedy roltain,ySees aiin  ykeedy Cokeedy qokar oteedy rol tain
+79v_32.png,43,4,olkeey ol or oCeey ol ol o keeedy CeKy aror,olkeey ol or o Cey ol ol okeeedy CeKy arar
+79v_33.png,54,2,por ar or yteey teey okar oSey qoky Cey okeey ldy oral,or ar or yteey teey okar oSey yoky Cey okeey ldy oral
+79v_34.png,52,1,ykeeey qokeey lSey qoky tCedy orSeedy otain Seor oly,ykeeey qokeey lSey qoky tCedy orSeedy otain Seeor oly
+79v_35.png,51,1,qor Ceey kain Cl ol otol dain otain ol oteedy qokan,qor Ceey kain Cl ol otol doin otain ol oteedy qokan
+79v_36.png,28,2,ySeey ol Sey oltSsey SeepSey,ySeey ol Sey oltSsey SepCey
+79v_37.png,47,0,pol ol Sal kain okeey lkeey qokal otCsdy okeSdy,pol ol Sal kain okeey lkeey qokal otCsdy okeSdy
+79v_38.png,49,3,olkeeey qokeey okeedy Sedy qokeey okain SeKdy dag,olkeey qokeey okeedy Sedy qokeey okaiin SeKdy dam
+79v_40.png,54,5,qokees aiin okain ol oiin qokoin Seky qokeedy qokar ol,qokee iiin okai ol aiin qokain Seky qokeedy qokar ol
+79v_41.png,49,1,ySedy qokeey okain ol keey daldy Cedy raiin orain,ySedy qokeey okain olkeey daldy Cedy raiin orain
+79v_42.png,38,4,okCedy qokain Seky Cedy ol ain y daral,kCedy qokain Sky Cedy olaiin y daral
+80r_12.png,66,7,dykSy ol otCedy qokain qotain CKey qokain okal qotain okedy qo l r,dykSy ol otCedy qokain qotain Ky qokainokal qotain okedyqol
+80r_13.png,67,4,tCedy qotair Ceol qokal qokal Ceety qokaiin qokar qokain Cedy qokam,tCedy qotair CCeol qokal qokal Ceety qokain qokar qokain CCey qokam
+80r_14.png,60,2,solkain Sl lky CTy qokain qotCy qotal dy CKy lCey qotar otal,olkain Sl lky CTy qokain qotCy qotal dy CKy lCey otar otal
+80r_15.png,62,3,qokedy qokeedy CeKy olCedy qokain Cey qokeCKy otar Ceoltain sy,okedy qokeedy CeKy olCedy qokain Cey qokeCKy otar eoltain y
+80r_16.png,66,0,solCedy qokeedy qokar ol Cedy qokain SeTy qokeedy saltar Ckain oty,solCedy qokeedy qokar ol Cedy qokain SeTy qokeedy saltar Ckain oty
+80r_18.png,64,2,paiin Seol qokain Cety qokeedy qokar STy qotol SeTy qokain olkam,paiin Seol qokain Cety qokeedy qokor STy qotol SeTy qokain olam
+80r_20.png,63,1,qoteedy keey qokain CKy qoty dalCed otain Sedy qokair Sey dalom,qoteedy keey qokain CKy qoty dalCed otain Sedy qokair Sey dlom
+80r_21.png,57,0,Sedy qokey SKey qotar CKy otol teol Seol qotal oltain CTy,Sedy qokey SKey qotar CKy otol teol Seol qotal oltain CTy
+80r_22.png,62,3,qokeedy qol SeTy qokalkeol qoky qokal Sedy sal olkain Sey qokl,qokeedy qol SeTy qokal keol qoky qokal Sedy sal olkainSey qokll
+80r_23.png,59,3,ySey l Sey kaiin lor aiiin STy pCey ty ol keedy tar oky lar,ySey l Sey kaiin lo aiii STy pCeyty ol keedy tar oky lar
+80r_25.png,64,0,dar Seal Ceeky okain sol lSedy dol CeTy orol eeesal olo teol ory,dar Seal Ceeky okain sol lSedy dol CeTy orol eeesal olo teol ory
+80r_26.png,64,1,lCol dar SeTy otedy qol olCeedy opCeeky qotCy qokaiin otair olky,lCl dar SeTy otedy qol olCeedy opCeeky qotCy qokaiin otair olky
+80r_27.png,54,0,lol Sar otaiin olkaiin ol olkain oraiin olor CeTy olor,lol Sar otaiin olkaiin ol olkain oraiin olor CeTy olor
+80r_28.png,55,3,pCeolkal dal korCy qotey qoty rCedy qokal olkolSedy Cty,pCeoltal dal korCy qotey qoty rCedy  qokal olkol Sedy Cty
+80r_29.png,50,1,okCey qoky Cedy qokain Sedy qol Seey qokal dar ary,okCey qoky Cedy qokain Sedy qolSeey qokal dar ary
+80r_30.png,45,1,dSedy qokal CTy qokain Sedy okaiin Sey dainol,dSedy qokal CTy qokain Sedy okaiin Sey dain ol
+80r_31.png,43,0,qokal CeTy sol Cey okalol okaly qokeedy oly,qokal CeTy sol Cey okalol okaly qokeedy oly
+80r_32.png,42,2,solCey qoky r Ceykain SeKy qokain okain ol,sol Cey qoky rCeykain SeKy qokain okain ol
+80r_33.png,44,2,solCey qokeey lkar otal olkeey okain SeTy ol,solCey qokeey lkar otal olkeey  okain SeTey ol
+80r_35.png,64,2,olkeey l Seol qokeey Sedy qol Sedy qokain Sey qoty qokain qokady,qlkeey l Seol qokeey Sdy qol Sedy qokain Sey qoty qokain qokady
+80r_36.png,63,4,qokeey rCey tain oteey qokain Sekaiin SeKy qolSey qokain ol lom,qokeey rCey tain oteey qokain Sekaii SeeKy qolSey qkain ol lo
+80r_37.png,67,0,sol olkeeey otar orCey qokeey ltalor olor qokaiin ol Sey qotor alom,sol olkeeey otar orCey qokeey ltalor olor qokaiin ol Sey qotor alom
+80r_38.png,62,3,sor olky qoty ty tor Seyky t otol opCedy qokain Seky qokain ol,sor olky qoty ty tor Ceyky t otal opCedy qokain Seeky qokain ol
+80r_40.png,44,1,torolSsdy opCey SepCy qotain STy qokedy daly,torolSsdy opCey SepCy qotain SeTy qokedy daly
+80r_41.png,43,1,tolkain otal Cedy qokar ol Sedy CeKy or oly,tolkain otal Cedy qokar ol Sedy CeKy orr oly
+80r_42.png,43,0,y Ceeytal CeTy qokain qokain CeTy qokain ol,y Ceeytal CeTy qokain qokain CeTy qokain ol
+80r_43.png,40,1,sor SeKy qokar CeKy okain SeKy qokeey ly,or SeKy qokar CeKy okain SeKy qokeey ly
+80r_44.png,41,0,qokain SKy qokolkain Cedy qokain CeTy lor,qokain SKy qokolkain Cedy qokain CeTy lor
+80r_45.png,45,1,okain Sedy qokan Cedy qotain Ceky lteey lolom,okain Sedy qokan Cedy qotiin Ceky lteey lolom
+80r_46.png,37,1,qokain Ceey olkain Sedy qokain orol s,qokain Ceey olkain Sedy qokain orols
+80r_47.png,55,3,polCy efaloir okain okaiin Ceey kaiin ylor olkeey qokal,polCy faloir okain okaiin Ceey kain ylor olkeey qokar
+80r_48.png,50,1,sal Sy loiin Ceey qotl Sety Seoky qokaiin Ceey ram,sal Sy loiin Ceey qotl Sety Seoky qokaiin Ceey rram
+80r_50.png,50,2,lol Cey saiin Sety okaiiin Seor tCey lkaiin okainy,lol Cey saiin Sety okaiiin Seor kCey lkain okainy
+80r_51.png,52,0,talkl ol s al Ceoly daiin otaly otain Cey lkain olom,talkl ol s al Ceoly daiin otaly otain Cey lkain olom
+80r_52.png,57,1,sol tl Sey qoklCeey lkaiin ol olor aiin y daiin Ceol kain,sol tl Sey qoklCeey lkaiin ol olor aiin ydaiin Ceol kain
+80r_53.png,34,1,lol eey lCey qokal Ceol lCor otlol,loleey lCey qokal Ceol lCor otlol
+80v_02.png,44,1,tSedy qotedy olkain otal CKy qoky daiin doly,tSedy qotedy olkain otal CKy qoky daiin daly
+80v_03.png,42,0,sCedy qolCedy qokaiin CTy otaiin Seeky qol,sCedy qolCedy qokaiin CTy otaiin Seeky qol
+80v_06.png,51,1,tCeol kedy pCeol kain Sedy qokaiin otey qokedy Cedy,tCool kedy pCeol kain Sedy qokaiin otey qokedy Cedy
+80v_07.png,47,0,polSol tCey qokol Sedy qotSey saly kCey stolpCy,polSol tCey qokol Sedy qotSey saly kCey stolpCy
+80v_08.png,54,1,olteedy qokaiin Sedy qokain Seol qokCdy qokCdy qoty dy,olteedy qokaiin Sedy qokainn Seol qokCdy qokCdy qoty dy
+80v_09.png,52,2,tCdy qol tol tal taldain CKy qokal dol CeTy qokal ly,tCdy qol tol tal taldain CTy qokal dol CeTy qokally
+80v_10.png,48,0,sol Seey qokaiin STy dolSedy qokal SeTy qotainol,sol Seey qokaiin STy dolSedy qokal SeTy qotainol
+80v_11.png,49,2,tol Seedy qokar olky rorCeey SeKy qotain Cedy rol,tol Seedy qokar olky ro Ceey SeTy qotain Cedy rol
+80v_13.png,24,0,lor ar ol olor Cey koldy,lor ar ol olor Cey koldy
+80v_14.png,55,2,tSedy qokain Sedy qokas otal qopSedy qoty lCedy qopalor,tSedy qokain Sedy qokar otal qopSedy qoty lCedy qopolor
+80v_15.png,56,1,qotaiin Cty lCedy s aly tol Cey qoteedy otal dain ol dal,qotaiin Cty lCedy saly tol Cey qoteedy otal dain ol dal
+80v_16.png,53,3,Ceol key qotar dy qotal dy keedy qokain oty loldy tal,Ceol key qotar dy qotal dy keedy qokain oty looldy tal C
+80v_17.png,50,0,solCeol qokaiin SeTy qokal Ceol dy qotlolkal Cedyr,solCeol qokaiin SeTy qokal Ceol dy qotlolkal Cedyr
+80v_18.png,32,1,yCedy qol okaiin olkedy or okain,y Cedy qol okaiin olkedy or okain
+80v_20.png,46,3,ySeeyqorar ol Ceey daiin Sey qokaiin ol okaiin,y Seey qor ar ol Ceey daiin Sey qokaiin ol okaiin
+80v_21.png,46,1,tar kain okal y rCey qokal olor aiin okal otam,tar kain okal y rCey qokal  olor aiin okal otam
+80v_22.png,36,1,dCedy qokal ol Cey dal or Sedy lSedy,dCedy qokal ol  Cey dal or Sedy lSedy
+80v_23.png,52,0,polteSol opy Sey qopSedy qoteedy qotol Sy kolSd qoky,polteSol opy Sey qopSedy qoteedy qotol Sy kolSd qoky
+80v_24.png,55,1,ySedy qokeey qokey qoty qotol otaiin ol Cedy qoky daiin,ySedy qokeey qokey qoty qotol otaiin ol Cedy qoky aiin
+80v_25.png,50,1,lSedy qoty olol Ceey qokain okalCy tal or CeTy sar,lSedy qoty olol Ceey qokain okalCy talor CeTy sar
+80v_26.png,36,2,qoty Ceyqytaiin Cey lCedy Sedy olCey,qoty Cey qy taiin Cey lCedy Sedy olCey
+80v_27.png,53,4,pSol kain olkar Sey qokain dal oltaiin okain Sal qoty,pSol  kain olkar CSey qokain dol oltaiin okain Sal oty
+80v_28.png,56,1,olCeol qokain or al Cain qokain ol kaiin okeedy qokey ly,olCeol qokain or al Cain qokain ol  kaiin okeedy qokey ly
+80v_29.png,29,4,qokain olkain olkain ol keeol,qokain ol kain olkain olr keey
+80v_31.png,46,2,qol ol oiin olkain ol Cedy qokain olSey qokain,qol ol oiin olkai ol Cedy qokai  olSey qokain
+80v_32.png,48,2,s olkain Sol kair or arolkeedy olky qolkain Sedy,s olkain Sol kair or  orolkeedy olky qolkain Sedy
+80v_33.png,49,3,qokeedy qoker olkain olSedy qokey qokeey tCTy lom,qokeedy qok olkain olSedy qokey qokeey tCeTy lom
+80v_34.png,44,2,dol Seyr Sey olSey Tor ylCdy olkain STy qoly,dol Seyr Sey olSey Tor ylCedy olkain STCy qoly
+80v_35.png,53,3,tol oltain olkar y qol qol kain okiin ol kain Sey ldy,tol ol tain olkar y ol qol kaii okiin ol kain Sey ldy
+80v_36.png,48,0,soin okain Seor ol Sey daly olSedy olal Sedy lCy,soin okain Seor ol Sey daly olSedy olal Sedy lCy
+80v_37.png,26,2,polSdy qokeedy Sky ololCey,polSCdy aokeedy Sky ololCey
+80v_38.png,45,2,polkedy lSeKy olky ot olkCy rCey qTy rCey ral,pol kedy lSeKy olky ot olkCy r ey qTy rCey ral
+80v_39.png,48,2,sol aiin Cey qokain Ces ol CKy qokeedy tCdy aral,sol aiin Cey ookain Ces ol CKy qokeedy tCdy ar al
+80v_41.png,47,3,tor arol ar SKy lkol otol Cedy qokain CKy qokal,tar arol ar SKy lkol otol Cedy qokain CeKyqokal
+80v_42.png,48,3,pol ol aiin olkal Sar Sedy qokol Cdy ldol dar al,pol o aiin olkalSar Sedy qokol Cdy lol dar al
+80v_43.png,38,4,sor ain Skain Sar okSey dalar Sokal dy,sorain Skain Sarr o Sey dal ar Sokal dy
+80v_44.png,10,4,qokal orol,qokaall  or l

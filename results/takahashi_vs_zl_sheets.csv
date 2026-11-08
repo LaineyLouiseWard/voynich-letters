@@ -1,0 +1,9 @@
+group,lines,ref_chars,edits,error
+language A,67,1961,29,0.0148
+language B,364,18895,264,0.014
+sheet D-3,14,472,10,0.0212
+sheet D-4,22,769,10,0.013
+sheet E-4,31,720,9,0.0125
+sheet M-5,142,6833,83,0.0121
+sheet T-5,149,7715,118,0.0153
+sheet T-6,73,4347,63,0.0145

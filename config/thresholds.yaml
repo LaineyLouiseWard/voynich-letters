@@ -1,0 +1,17 @@
+# Every threshold, fixed before results are seen. Each is tested by rerunning across a range.
+# Line matching (scripts/make_lines.py)
+MIN_SIM: 0.6          # text similarity needed to match a box line to a ZL line
+VOTE_TOL: 0.5         # a box votes only for a baseline within this many line spacings
+AGREE: 0.8            # share of a Kraken line's votes that must name the same box line
+COVER: 0.9            # share of a box line's words whose votes must land on its own Kraken lines
+WIDTH_BAND: [0.75, 1.33]  # a line's width per letter, as a share of its page's median, must fall in this band
+PAGE_FAIL: 0.1        # a page is dropped when more than this share of its lines fall outside the band
+LINE_MIN: 24          # boxes needed to fit the offset line; below this, one constant offset is used instead
+# Dataset split by parchment sheet (scripts/make_dataset.py)
+SEED: 20261102        # shuffles the sheets
+TEST: 0.15            # share of lines held back for test
+VAL: 0.10             # share of lines held back for validation
+# Reading accuracy (scripts/reading.py)
+BOOT: 1000            # resamples of the test sheets for the 95% range (seed SEED)
+# Letter export (scripts/read_letters.py)
+SQUARE: 224           # side of the square copies, as in voynich-glyph-embeddings

@@ -1,0 +1,224 @@
+diff --git a/datasets/dataset.py b/datasets/dataset.py
+index b58fb62..9996cce 100644
+--- a/datasets/dataset.py
++++ b/datasets/dataset.py
+@@ -174,15 +174,15 @@ class LineDataset(Dataset):
+ 
+   def convert_str_to_tensor(self, text):
+     decomposed = unicodedata.normalize("NFD", text)
+-    clusters = []
+-    for char in decomposed:
+-      if unicodedata.combining(char):
+-        if clusters: # guard against leading combining character
+-          clusters[-1] += char
+-        # else: skip orphaned leading combining mark
+-      else:
+-        clusters.append(char)
+-    return clusters
++    clusters = []
++    for char in decomposed:
++      if unicodedata.combining(char):
++        if clusters: # guard against leading combining character
++          clusters[-1] += char
++        # else: skip orphaned leading combining mark
++      else:
++        clusters.append(char)
++    return clusters
+ 
+   def generate_labels(self, norm_labels):
+     with_accent = []
+diff --git a/models/dino/ops/setup.py b/models/dino/ops/setup.py
+index c76d823..9d9627a 100644
+--- a/models/dino/ops/setup.py
++++ b/models/dino/ops/setup.py
+@@ -35,7 +35,7 @@ def get_extensions():
+ 
+ 
+ 
+-    if torch.cuda.is_available() and CUDA_HOME is not None:
++    if (torch.cuda.is_available() or os.environ.get("FORCE_CUDA")) and CUDA_HOME is not None:
+         extension = CUDAExtension
+         sources += source_cuda
+         define_macros += [("WITH_CUDA", None)]
+diff --git a/models/dino/ops/src/cuda/ms_deform_attn_cuda.cu b/models/dino/ops/src/cuda/ms_deform_attn_cuda.cu
+index d6d5836..64d3ae8 100644
+--- a/models/dino/ops/src/cuda/ms_deform_attn_cuda.cu
++++ b/models/dino/ops/src/cuda/ms_deform_attn_cuda.cu
+@@ -31,11 +31,11 @@ at::Tensor ms_deform_attn_cuda_forward(
+     AT_ASSERTM(sampling_loc.is_contiguous(), "sampling_loc tensor has to be contiguous");
+     AT_ASSERTM(attn_weight.is_contiguous(), "attn_weight tensor has to be contiguous");
+ 
+-    AT_ASSERTM(value.type().is_cuda(), "value must be a CUDA tensor");
+-    AT_ASSERTM(spatial_shapes.type().is_cuda(), "spatial_shapes must be a CUDA tensor");
+-    AT_ASSERTM(level_start_index.type().is_cuda(), "level_start_index must be a CUDA tensor");
+-    AT_ASSERTM(sampling_loc.type().is_cuda(), "sampling_loc must be a CUDA tensor");
+-    AT_ASSERTM(attn_weight.type().is_cuda(), "attn_weight must be a CUDA tensor");
++    AT_ASSERTM(value.is_cuda(), "value must be a CUDA tensor");
++    AT_ASSERTM(spatial_shapes.is_cuda(), "spatial_shapes must be a CUDA tensor");
++    AT_ASSERTM(level_start_index.is_cuda(), "level_start_index must be a CUDA tensor");
++    AT_ASSERTM(sampling_loc.is_cuda(), "sampling_loc must be a CUDA tensor");
++    AT_ASSERTM(attn_weight.is_cuda(), "attn_weight must be a CUDA tensor");
+ 
+     const int batch = value.size(0);
+     const int spatial_size = value.size(1);
+@@ -61,15 +61,15 @@ at::Tensor ms_deform_attn_cuda_forward(
+     for (int n = 0; n < batch/im2col_step_; ++n)
+     {
+         auto columns = output_n.select(0, n);
+-        AT_DISPATCH_FLOATING_TYPES(value.type(), "ms_deform_attn_forward_cuda", ([&] {
++        AT_DISPATCH_FLOATING_TYPES(value.scalar_type(), "ms_deform_attn_forward_cuda", ([&] {
+             ms_deformable_im2col_cuda(at::cuda::getCurrentCUDAStream(),
+-                value.data<scalar_t>() + n * im2col_step_ * per_value_size,
++                value.data_ptr<scalar_t>() + n * im2col_step_ * per_value_size,
+                 spatial_shapes.data<int64_t>(),
+                 level_start_index.data<int64_t>(),
+-                sampling_loc.data<scalar_t>() + n * im2col_step_ * per_sample_loc_size,
+-                attn_weight.data<scalar_t>() + n * im2col_step_ * per_attn_weight_size,
++                sampling_loc.data_ptr<scalar_t>() + n * im2col_step_ * per_sample_loc_size,
++                attn_weight.data_ptr<scalar_t>() + n * im2col_step_ * per_attn_weight_size,
+                 batch_n, spatial_size, num_heads, channels, num_levels, num_query, num_point,
+-                columns.data<scalar_t>());
++                columns.data_ptr<scalar_t>());
+ 
+         }));
+     }
+@@ -97,12 +97,12 @@ std::vector<at::Tensor> ms_deform_attn_cuda_backward(
+     AT_ASSERTM(attn_weight.is_contiguous(), "attn_weight tensor has to be contiguous");
+     AT_ASSERTM(grad_output.is_contiguous(), "grad_output tensor has to be contiguous");
+ 
+-    AT_ASSERTM(value.type().is_cuda(), "value must be a CUDA tensor");
+-    AT_ASSERTM(spatial_shapes.type().is_cuda(), "spatial_shapes must be a CUDA tensor");
+-    AT_ASSERTM(level_start_index.type().is_cuda(), "level_start_index must be a CUDA tensor");
+-    AT_ASSERTM(sampling_loc.type().is_cuda(), "sampling_loc must be a CUDA tensor");
+-    AT_ASSERTM(attn_weight.type().is_cuda(), "attn_weight must be a CUDA tensor");
+-    AT_ASSERTM(grad_output.type().is_cuda(), "grad_output must be a CUDA tensor");
++    AT_ASSERTM(value.is_cuda(), "value must be a CUDA tensor");
++    AT_ASSERTM(spatial_shapes.is_cuda(), "spatial_shapes must be a CUDA tensor");
++    AT_ASSERTM(level_start_index.is_cuda(), "level_start_index must be a CUDA tensor");
++    AT_ASSERTM(sampling_loc.is_cuda(), "sampling_loc must be a CUDA tensor");
++    AT_ASSERTM(attn_weight.is_cuda(), "attn_weight must be a CUDA tensor");
++    AT_ASSERTM(grad_output.is_cuda(), "grad_output must be a CUDA tensor");
+ 
+     const int batch = value.size(0);
+     const int spatial_size = value.size(1);
+@@ -131,18 +131,18 @@ std::vector<at::Tensor> ms_deform_attn_cuda_backward(
+     for (int n = 0; n < batch/im2col_step_; ++n)
+     {
+         auto grad_output_g = grad_output_n.select(0, n);
+-        AT_DISPATCH_FLOATING_TYPES(value.type(), "ms_deform_attn_backward_cuda", ([&] {
++        AT_DISPATCH_FLOATING_TYPES(value.scalar_type(), "ms_deform_attn_backward_cuda", ([&] {
+             ms_deformable_col2im_cuda(at::cuda::getCurrentCUDAStream(),
+-                                    grad_output_g.data<scalar_t>(),
+-                                    value.data<scalar_t>() + n * im2col_step_ * per_value_size,
++                                    grad_output_g.data_ptr<scalar_t>(),
++                                    value.data_ptr<scalar_t>() + n * im2col_step_ * per_value_size,
+                                     spatial_shapes.data<int64_t>(),
+                                     level_start_index.data<int64_t>(),
+-                                    sampling_loc.data<scalar_t>() + n * im2col_step_ * per_sample_loc_size,
+-                                    attn_weight.data<scalar_t>() + n * im2col_step_ * per_attn_weight_size,
++                                    sampling_loc.data_ptr<scalar_t>() + n * im2col_step_ * per_sample_loc_size,
++                                    attn_weight.data_ptr<scalar_t>() + n * im2col_step_ * per_attn_weight_size,
+                                     batch_n, spatial_size, num_heads, channels, num_levels, num_query, num_point,
+-                                    grad_value.data<scalar_t>() +  n * im2col_step_ * per_value_size,
+-                                    grad_sampling_loc.data<scalar_t>() + n * im2col_step_ * per_sample_loc_size,
+-                                    grad_attn_weight.data<scalar_t>() + n * im2col_step_ * per_attn_weight_size);
++                                    grad_value.data_ptr<scalar_t>() +  n * im2col_step_ * per_value_size,
++                                    grad_sampling_loc.data_ptr<scalar_t>() + n * im2col_step_ * per_sample_loc_size,
++                                    grad_attn_weight.data_ptr<scalar_t>() + n * im2col_step_ * per_attn_weight_size);
+ 
+         }));
+     }
+diff --git a/reconstruction.py b/reconstruction.py
+index 5be17a3..daa8315 100644
+--- a/reconstruction.py
++++ b/reconstruction.py
+@@ -827,35 +827,18 @@ for item_idx, item in enumerate(items):
+                                 sprite_counts[char_idx][selected_sprite_idx] = 0
+                             sprite_counts[char_idx][selected_sprite_idx] += 1
+             
+-            for batch_idx in range(batch_scores.shape[0]):
+-                batch_score = batch_scores[batch_idx]  # Shape: (num_queries, num_classes)
+-                batch_bbox = batch_bboxes[batch_idx]   # Shape: (num_queries, 4)
+-                
+-                # Get predicted sprite for each query
+-                predicted_sprites = np.argmax(batch_score, axis=1)  # Shape: (num_queries,)
+-                
+-                for query_idx, pred_sprite in enumerate(predicted_sprites):
+-                    if pred_sprite == 0:  # Skip empty/background sprite
+-                        continue
+-                    pred_sprite = pred_sprite - 1
+-                    # Get bbox dimensions for this sprite
+-                    bbox = batch_bbox[query_idx]  # Shape: (4,) - [x1, y1, x2, y2] or [cx, cy, w, h]
+-                    
+-                    # Calculate width and height
+-                    # Bboxes are in [cx, cy, w, h] format after processing
+-                    width = bbox[2]  # w
+-                    height = bbox[3]  # h
+-                    
+-                    # Initialize sprite statistics if not exists
+-                    if pred_sprite not in bbox_stats:
+-                        bbox_stats[pred_sprite] = {
+-                            'widths': [],
+-                            'heights': []
+-                        }
+-                    
+-                    # Add measurements
+-                    bbox_stats[pred_sprite]['widths'].append(width)
+-                    bbox_stats[pred_sprite]['heights'].append(height)
++            # voynich-letters speed patch: the same per-sprite box widths and heights, in the same order, without a
++            # Python loop over every query of every line.
++            predicted_all = batch_scores.argmax(axis=2).reshape(-1)
++            wh_all = batch_bboxes[:, :, 2:4].reshape(-1, 2)
++            seen_sprites, first_index = np.unique(predicted_all, return_index=True)
++            for pred_sprite in seen_sprites[np.argsort(first_index)]:
++                if pred_sprite == 0:  # Skip empty/background sprite
++                    continue
++                selected = predicted_all == pred_sprite
++                stats = bbox_stats.setdefault(pred_sprite - 1, {'widths': [], 'heights': []})
++                stats['widths'].extend(wh_all[selected, 0])
++                stats['heights'].extend(wh_all[selected, 1])
+             
+             loss = 0
+             reco = list_reco_image
+@@ -908,8 +891,12 @@ for item_idx, item in enumerate(items):
+             has_nan_grad = False
+             has_inf_grad = False
+             bbox_param_names = []
+-            
+-            for name, param in model.named_parameters():
++            # voynich-letters speed patch: one GPU-to-CPU wait for all gradients; the per-parameter loops below (and
++            # their messages) run only when some gradient is not finite.
++            grads = [p.grad for p in list(model.parameters()) + list(reconstructor.parameters()) if p.grad is not None]
++            all_finite = (not grads) or bool(torch.stack([torch.isfinite(g).all() for g in grads]).all())
++
++            for name, param in ([] if all_finite else model.named_parameters()):
+                 if param.grad is not None:
+                     if torch.isnan(param.grad).any():
+                         has_nan_grad = True
+@@ -925,7 +912,7 @@ for item_idx, item in enumerate(items):
+                             print(f"   grad stats: min={param.grad.min()}, max={param.grad.max()}, inf_count={torch.isinf(param.grad).sum()}")
+             
+             # Also check reconstructor gradients
+-            for name, param in reconstructor.named_parameters():
++            for name, param in ([] if all_finite else reconstructor.named_parameters()):
+                 if param.grad is not None:
+                     if torch.isnan(param.grad).any():
+                         has_nan_grad = True
+@@ -946,14 +933,9 @@ for item_idx, item in enumerate(items):
+                     grad_norm = torch.nn.utils.clip_grad_norm_(model.parameters(), args_model.clip_max_norm).item()
+                     
+                     # Calculate norm AFTER clipping
+-                    total_norm_after = 0.0
+-                    count_params = 0
+-                    for p in model.parameters():
+-                        if p.grad is not None:
+-                            count_params += 1
+-                            param_norm = p.grad.detach().data.norm(2)
+-                            total_norm_after += param_norm.item() ** 2
+-                    grad_norm_after = total_norm_after ** 0.5
++                    # voynich-letters speed patch: the same logged norm with one GPU-to-CPU wait, not one per tensor.
++                    norms_after = [p.grad.detach().norm(2) for p in model.parameters() if p.grad is not None]
++                    grad_norm_after = torch.stack(norms_after).double().pow(2).sum().sqrt().item() if norms_after else 0.0
+                     # print(f"DEBUG: Found {count_params} params with grad. Norm before: {grad_norm}, Norm after: {grad_norm_after}")
+                 else:
+                     grad_norm = 0.0
